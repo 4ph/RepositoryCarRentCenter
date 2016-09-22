@@ -26,6 +26,19 @@ namespace CarRent
             this.DataGridOrders.ItemsSource = context.FuncOrders1();
         }
 
+        string vinOfselectedCar;
+
+        public Orders(string vinCar_inpt)
+        {
+            InitializeComponent();
+            vinOfselectedCar = vinCar_inpt;
+            context = new CarRentalCenterDBEntities();
+            this.DataGridOrders.ItemsSource = (from c in context.FuncOrders1()
+                                              where c.VIN == vinOfselectedCar
+                                              select c).ToArray();
+
+        }
+
         CarRentalCenterDBEntities context;
 
         void RefreshWindow()

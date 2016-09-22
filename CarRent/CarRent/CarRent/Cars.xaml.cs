@@ -39,5 +39,21 @@ namespace CarRent
             RefreshWindow();
 
         }
+
+        private void ButtonCancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ButtonShowOrders_Click(object sender, RoutedEventArgs e)
+        {
+            FuncCars_Result row = new FuncCars_Result();
+            row = (FuncCars_Result) this.DataGridCars.SelectedItems[0];
+
+            string vinSelectedCar = "";
+            vinSelectedCar = (string)row.VIN;
+
+            new Orders(vinSelectedCar).ShowDialog();
+        }
     }
 }
