@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarRentalCenterDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="CarRentalCenterDBModelStoreContainer">
+    <EntitySet Name="TableCars" EntityType="CarRentalCenterDBModel.Store.TableCars" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TableGroups" EntityType="CarRentalCenterDBModel.Store.TableGroups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TableMakers" EntityType="CarRentalCenterDBModel.Store.TableMakers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TableModels" EntityType="CarRentalCenterDBModel.Store.TableModels" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TableOrders" EntityType="CarRentalCenterDBModel.Store.TableOrders" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TablePersons" EntityType="CarRentalCenterDBModel.Store.TablePersons" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TableStatus" EntityType="CarRentalCenterDBModel.Store.TableStatus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TableUsers" EntityType="CarRentalCenterDBModel.Store.TableUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ViewCars1" EntityType="CarRentalCenterDBModel.Store.ViewCars1" store:Type="Views" store:Schema="dbo" store:Name="ViewCars1">
+      <DefiningQuery>SELECT 
+      [ViewCars1].[id] AS [id], 
+      [ViewCars1].[Maker] AS [Maker], 
+      [ViewCars1].[ModelID] AS [ModelID], 
+      [ViewCars1].[Year] AS [Year], 
+      [ViewCars1].[VIN] AS [VIN]
+      FROM [dbo].[ViewCars1] AS [ViewCars1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewCars2" EntityType="CarRentalCenterDBModel.Store.ViewCars2" store:Type="Views" store:Schema="dbo" store:Name="ViewCars2">
+      <DefiningQuery>SELECT 
+      [ViewCars2].[id] AS [id], 
+      [ViewCars2].[Maker] AS [Maker], 
+      [ViewCars2].[Model] AS [Model], 
+      [ViewCars2].[Year] AS [Year], 
+      [ViewCars2].[VIN] AS [VIN]
+      FROM [dbo].[ViewCars2] AS [ViewCars2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewOrders1" EntityType="CarRentalCenterDBModel.Store.ViewOrders1" store:Type="Views" store:Schema="dbo" store:Name="ViewOrders1">
+      <DefiningQuery>SELECT 
+      [ViewOrders1].[Id] AS [Id], 
+      [ViewOrders1].[FirstName] AS [FirstName], 
+      [ViewOrders1].[LastName] AS [LastName], 
+      [ViewOrders1].[idCar] AS [idCar], 
+      [ViewOrders1].[Date] AS [Date], 
+      [ViewOrders1].[Amount] AS [Amount], 
+      [ViewOrders1].[StatusID] AS [StatusID]
+      FROM [dbo].[ViewOrders1] AS [ViewOrders1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewOrders2" EntityType="CarRentalCenterDBModel.Store.ViewOrders2" store:Type="Views" store:Schema="dbo" store:Name="ViewOrders2">
+      <DefiningQuery>SELECT 
+      [ViewOrders2].[id] AS [id], 
+      [ViewOrders2].[FirstName] AS [FirstName], 
+      [ViewOrders2].[LastName] AS [LastName], 
+      [ViewOrders2].[MakerID] AS [MakerID], 
+      [ViewOrders2].[ModelID] AS [ModelID], 
+      [ViewOrders2].[Year] AS [Year], 
+      [ViewOrders2].[VIN] AS [VIN], 
+      [ViewOrders2].[Date] AS [Date], 
+      [ViewOrders2].[Amount] AS [Amount], 
+      [ViewOrders2].[StatusID] AS [StatusID]
+      FROM [dbo].[ViewOrders2] AS [ViewOrders2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewOrders3" EntityType="CarRentalCenterDBModel.Store.ViewOrders3" store:Type="Views" store:Schema="dbo" store:Name="ViewOrders3">
+      <DefiningQuery>SELECT 
+      [ViewOrders3].[id] AS [id], 
+      [ViewOrders3].[FirstName] AS [FirstName], 
+      [ViewOrders3].[LastName] AS [LastName], 
+      [ViewOrders3].[Maker] AS [Maker], 
+      [ViewOrders3].[ModelID] AS [ModelID], 
+      [ViewOrders3].[Year] AS [Year], 
+      [ViewOrders3].[VIN] AS [VIN], 
+      [ViewOrders3].[Date] AS [Date], 
+      [ViewOrders3].[Amount] AS [Amount], 
+      [ViewOrders3].[StatusID] AS [StatusID]
+      FROM [dbo].[ViewOrders3] AS [ViewOrders3]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewOrders4" EntityType="CarRentalCenterDBModel.Store.ViewOrders4" store:Type="Views" store:Schema="dbo" store:Name="ViewOrders4">
+      <DefiningQuery>SELECT 
+      [ViewOrders4].[id] AS [id], 
+      [ViewOrders4].[FirstName] AS [FirstName], 
+      [ViewOrders4].[LastName] AS [LastName], 
+      [ViewOrders4].[Maker] AS [Maker], 
+      [ViewOrders4].[Model] AS [Model], 
+      [ViewOrders4].[Year] AS [Year], 
+      [ViewOrders4].[VIN] AS [VIN], 
+      [ViewOrders4].[Date] AS [Date], 
+      [ViewOrders4].[Amount] AS [Amount], 
+      [ViewOrders4].[StatusID] AS [StatusID]
+      FROM [dbo].[ViewOrders4] AS [ViewOrders4]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ViewOrders5" EntityType="CarRentalCenterDBModel.Store.ViewOrders5" store:Type="Views" store:Schema="dbo" store:Name="ViewOrders5">
+      <DefiningQuery>SELECT 
+      [ViewOrders5].[id] AS [id], 
+      [ViewOrders5].[FirstName] AS [FirstName], 
+      [ViewOrders5].[LastName] AS [LastName], 
+      [ViewOrders5].[Maker] AS [Maker], 
+      [ViewOrders5].[Model] AS [Model], 
+      [ViewOrders5].[Year] AS [Year], 
+      [ViewOrders5].[VIN] AS [VIN], 
+      [ViewOrders5].[Date] AS [Date], 
+      [ViewOrders5].[Amount] AS [Amount], 
+      [ViewOrders5].[Status] AS [Status]
+      FROM [dbo].[ViewOrders5] AS [ViewOrders5]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="TableCars">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MakerID" Type="int" />
+    <Property Name="ModelID" Type="int" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TableGroups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NameGrp" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TableMakers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Maker" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TableModels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Model" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TableOrders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idPerson" Type="int" />
+    <Property Name="idCar" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="StatusID" Type="int" />
+  </EntityType>
+  <EntityType Name="TablePersons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" />
+    <Property Name="DateOfBirth" Type="date" />
+    <Property Name="Address" Type="nchar" MaxLength="10" />
+    <Property Name="Phone" Type="nchar" MaxLength="10" />
+    <Property Name="E-mail" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TableStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TableUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Usr" Type="nchar" MaxLength="10" />
+    <Property Name="GroupsID" Type="int" />
+    <Property Name="Lgin" Type="nchar" MaxLength="10" />
+    <Property Name="Pass" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewCars1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewCars1">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Maker" Type="nchar" MaxLength="10" />
+    <Property Name="ModelID" Type="int" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewCars2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewCars2">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Maker" Type="nchar" MaxLength="10" />
+    <Property Name="Model" Type="nchar" MaxLength="10" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewOrders1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewOrders1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" />
+    <Property Name="idCar" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="StatusID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewOrders2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewOrders2">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" />
+    <Property Name="MakerID" Type="int" />
+    <Property Name="ModelID" Type="int" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="StatusID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewOrders3' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewOrders3">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" />
+    <Property Name="Maker" Type="nchar" MaxLength="10" />
+    <Property Name="ModelID" Type="int" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="StatusID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewOrders4' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewOrders4">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" />
+    <Property Name="Maker" Type="nchar" MaxLength="10" />
+    <Property Name="Model" Type="nchar" MaxLength="10" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="StatusID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'C:\USERS\USER\DESKTOP\CARRENT\CARRENT\CARRENT\BIN\DEBUG\DB2\CARRENTALCENTERDB.MDF.dbo.ViewOrders5' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ViewOrders5">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" MaxLength="10" />
+    <Property Name="Maker" Type="nchar" MaxLength="10" />
+    <Property Name="Model" Type="nchar" MaxLength="10" />
+    <Property Name="Year" Type="date" />
+    <Property Name="VIN" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="Status" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Function Name="FuncCars" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Maker" Type="nchar" MaxLength="10" />
+          <Property Name="Model" Type="nchar" MaxLength="10" />
+          <Property Name="Year" Type="date" />
+          <Property Name="VIN" Type="nchar" MaxLength="10" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="FuncOrders1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="nchar" MaxLength="10" />
+          <Property Name="LastName" Type="nchar" MaxLength="10" />
+          <Property Name="Maker" Type="nchar" MaxLength="10" />
+          <Property Name="Model" Type="nchar" MaxLength="10" />
+          <Property Name="Year" Type="date" />
+          <Property Name="VIN" Type="nchar" MaxLength="10" />
+          <Property Name="Date" Type="date" />
+          <Property Name="Amount" Type="money" />
+          <Property Name="Status" Type="nchar" MaxLength="10" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="FuncUsers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Usr" Type="nchar" MaxLength="10" />
+          <Property Name="NameGrp" Type="nchar" MaxLength="10" />
+          <Property Name="Lgin" Type="nchar" MaxLength="10" />
+          <Property Name="Pass" Type="nchar" MaxLength="10" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+</Schema>

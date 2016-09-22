@@ -1,0 +1,21 @@
+﻿<Window x:Class="CarRent.WorkPlace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WorkPlace" Height="300" Width="694">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="686">
+            <MenuItem x:Name="MenuItemOrders" Header="Orders" Click="MenuItemOrders_Click"/>
+            <MenuItem x:Name="MenuItemCars2" Header="Cars" Click="MenuItemCars2_Click"/>
+            <MenuItem x:Name="MenuItemPersons" Header="Persons" Click="MenuItemPersons_Click"/>
+            <MenuItem x:Name="MenuItemUsers" Header="Users" Click="MenuItemUsers_Click"/>
+            <MenuItem x:Name="MenuItemGroups" Header="Groups" Click="MenuItemGroups_Click"/>
+            <MenuItem x:Name="MenuItemMakers" Header="Makers" Click="MenuItemMakers_Click"/>
+            <MenuItem x:Name="MenuItemModels" Header="Models" Click="MenuItemModels_Click"/>
+            <MenuItem x:Name="MenuItemStatus" Header="Status" Click="MenuItemStatus_Click"/>
+        </Menu>
+
+    </Grid>
+</Window>

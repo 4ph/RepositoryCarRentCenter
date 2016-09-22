@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8aca2374c8a147eba197d2e4c1790266" Name="Diagram1" ZoomLevel="37" >
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableCars" Width="1.5" PointX="10.975047837465558" PointY="13.493143803204012" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableGroups" Width="1.5" PointX="0.14305609843835984" PointY="13.827772728087275" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableMakers" Width="1.5" PointX="6.0784472795568618" PointY="31.440722956993021" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableModels" Width="1.5" PointX="8.7235496047528223" PointY="2.7000358415302057" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableOrders" Width="1.5" PointX="6.2789721145662352" PointY="9.9573762910242074" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TablePersons" Width="1.5" PointX="5.746624966034025" PointY="18.654932671531537" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableStatus" Width="1.5" PointX="8.2493940369456045" PointY="28.0343319159161" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.TableUsers" Width="1.5" PointX="4.4154032973644339" PointY="18.213773855107732" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewCars1" Width="1.5" PointX="0.41874846090504358" PointY="12.18627672464879" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewCars2" Width="1.5" PointX="2.5598404270409794" PointY="14.639089635870928" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewOrders1" Width="1.5" PointX="9.0324880429694829" PointY="29.058099149287724" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewOrders2" Width="1.5" PointX="11.32592916270994" PointY="25.081001844760497" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewOrders3" Width="1.5" PointX="3.136237589240185" PointY="21.356359998395835" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewOrders4" Width="1.5" PointX="0.79489613920212543" PointY="16.2100960389758" />
+        <EntityTypeShape EntityType="CarRentalCenterDBModel.ViewOrders5" Width="1.5" PointX="3.0998562234918854" PointY="11.391902168929532" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

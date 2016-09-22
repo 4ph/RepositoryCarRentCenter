@@ -1,0 +1,22 @@
+﻿<Window x:Class="CarRent.AddCar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddCar" Height="300" Width="300">
+    <Grid>
+        <Button x:Name="ButtonAdd" Content="Add" HorizontalAlignment="Left" Margin="48,221,0,0" VerticalAlignment="Top" Width="75" Click="ButtonAdd_Click"/>
+        <Button x:Name="ButtonCancel" Content="Cancel" HorizontalAlignment="Left" Margin="168,221,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="ComboBoxMaker" HorizontalAlignment="Left" Margin="148,33,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBox.ItemBindingGroup>
+                <BindingGroup/>
+            </ComboBox.ItemBindingGroup>
+        </ComboBox>
+        <ComboBox x:Name="ComboBoxModel" HorizontalAlignment="Left" Margin="148,74,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="DatePicketYear" HorizontalAlignment="Left" Margin="148,118,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBoxVIN" HorizontalAlignment="Left" Height="23" Margin="148,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Maker" HorizontalAlignment="Left" Margin="33,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Model" HorizontalAlignment="Left" Margin="33,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Year" HorizontalAlignment="Left" Margin="33,118,0,0" VerticalAlignment="Top"/>
+        <Label Content="VIN" HorizontalAlignment="Left" Margin="33,168,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

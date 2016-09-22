@@ -1,0 +1,146 @@
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\bin\Debug\CarRent.exe.config
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Cars.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\WorkPlace.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Cars.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\WorkPlace.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\App.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent_MarkupCompile.cache
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent.g.resources
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent.Properties.Resources.resources
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\bin\Debug\CarRent.exe
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\bin\Debug\CarRent.pdb
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent.exe
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent.pdb
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Persons.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Persons.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Users.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Users.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Groups.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Groups.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Makers.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Models.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Status.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Makers.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Models.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Status.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Orders.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Orders.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\AddUser.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\AddUser.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\CarRent_MarkupCompile.lref
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\AddPersn.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\AddPersn.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\EditPerson.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\EditPerson.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Add order.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\Add order.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\SelectCar.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\SelectCar.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\SelectPerson.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\SelectPerson.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\bin\Debug\CarRent.exe.config
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent.exe
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent.pdb
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\bin\Debug\CarRent.exe
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\bin\Debug\CarRent.pdb
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Add order.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\AddPersn.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Cars.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\EditPerson.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Groups.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Makers.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Models.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Orders.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Persons.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\SelectCar.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\SelectPerson.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Status.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Users.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\WorkPlace.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Add order.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\AddPersn.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\AddUser.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Cars.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\EditPerson.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Groups.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Makers.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Models.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Orders.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Persons.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\SelectCar.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\SelectPerson.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Status.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\Users.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\WorkPlace.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent_MarkupCompile.cache
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent_MarkupCompile.lref
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\AddUser.baml
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent.g.resources
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent.Properties.Resources.resources
+C:\Users\user\Desktop\Новая папка\4\CarRent\CarRent\obj\Debug\CarRent.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\EditORder.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\EditORder.g.cs
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\AddCar.baml
+C:\Users\user\Desktop\CarRent\CarRent\CarRent\obj\Debug\AddCar.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\bin\Debug\CarRent.exe.config
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.exe
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Add order.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\AddCar.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\AddPersn.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Cars.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\EditORder.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\EditPerson.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Groups.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Makers.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Models.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Orders.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Persons.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\SelectCar.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\SelectPerson.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Status.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Users.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\WorkPlace.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Add order.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\AddCar.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\AddPersn.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\AddUser.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Cars.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\EditORder.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\EditPerson.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Groups.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Makers.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Models.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Orders.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Persons.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\SelectCar.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\SelectPerson.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Status.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Users.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\WorkPlace.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\App.g.cs
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent_MarkupCompile.cache
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent_MarkupCompile.lref
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\bin\Debug\CarRent.exe
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\bin\Debug\CarRent.pdb
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\AddUser.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.g.resources
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.Properties.Resources.resources
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.pdb

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarRentalCenterDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CarRentalCenterDBEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="Cars1" ReturnType="Collection(CarRentalCenterDBModel.Cars1_Result)" IsComposable="true" />
+    <FunctionImport Name="Cars2" ReturnType="Collection(CarRentalCenterDBModel.Cars2_Result)" IsComposable="true" />
+    <FunctionImport Name="FuncCars" IsComposable="true" ReturnType="Collection(CarRentalCenterDBModel.FuncCars_Result)" />
+    <FunctionImport Name="FuncOrders1" IsComposable="true" ReturnType="Collection(CarRentalCenterDBModel.FuncOrders1_Result)" />
+    <FunctionImport Name="FuncUsers" IsComposable="true" ReturnType="Collection(CarRentalCenterDBModel.FuncUsers_Result)" />
+    <EntitySet Name="TableCars" EntityType="CarRentalCenterDBModel.TableCars" />
+    <EntitySet Name="TableGroups" EntityType="CarRentalCenterDBModel.TableGroups" />
+    <EntitySet Name="TableMakers" EntityType="CarRentalCenterDBModel.TableMakers" />
+    <EntitySet Name="TableModels" EntityType="CarRentalCenterDBModel.TableModels" />
+    <EntitySet Name="TableOrders" EntityType="CarRentalCenterDBModel.TableOrders" />
+    <EntitySet Name="TablePersons" EntityType="CarRentalCenterDBModel.TablePersons" />
+    <EntitySet Name="TableStatus" EntityType="CarRentalCenterDBModel.TableStatus" />
+    <EntitySet Name="TableUsers" EntityType="CarRentalCenterDBModel.TableUsers" />
+    <EntitySet Name="ViewCars1" EntityType="CarRentalCenterDBModel.ViewCars1" />
+    <EntitySet Name="ViewCars2" EntityType="CarRentalCenterDBModel.ViewCars2" />
+    <EntitySet Name="ViewOrders1" EntityType="CarRentalCenterDBModel.ViewOrders1" />
+    <EntitySet Name="ViewOrders2" EntityType="CarRentalCenterDBModel.ViewOrders2" />
+    <EntitySet Name="ViewOrders3" EntityType="CarRentalCenterDBModel.ViewOrders3" />
+    <EntitySet Name="ViewOrders4" EntityType="CarRentalCenterDBModel.ViewOrders4" />
+    <EntitySet Name="ViewOrders5" EntityType="CarRentalCenterDBModel.ViewOrders5" />
+  </EntityContainer>
+  <ComplexType Name="Cars1_Result">
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Maker" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ModelID" Type="Int32" />
+    <Property Name="Year" Type="DateTime" />
+    <Property Name="VIN" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </ComplexType>
+  <ComplexType Name="Cars2_Result">
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="Maker" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Model" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Year" Type="DateTime" />
+    <Property Name="VIN" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </ComplexType>
+  <ComplexType Name="FuncCars_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="Maker" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Model" Nullable="true" MaxLength="10" />
+    <Property Type="DateTime" Name="Year" Nullable="true" Precision="10" />
+    <Property Type="String" Name="VIN" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="FuncOrders1_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="FirstName" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Maker" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Model" Nullable="true" MaxLength="10" />
+    <Property Type="DateTime" Name="Year" Nullable="true" Precision="10" />
+    <Property Type="String" Name="VIN" Nullable="true" MaxLength="10" />
+    <Property Type="DateTime" Name="Date" Nullable="true" Precision="10" />
+    <Property Type="Decimal" Name="Amount" Nullable="true" Precision="19" Scale="4" />
+    <Property Type="String" Name="Status" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="FuncUsers_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Usr" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NameGrp" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Lgin" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Pass" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <EntityType Name="TableCars">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="MakerID" />
+    <Property Type="Int32" Name="ModelID" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TableGroups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NameGrp" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TableMakers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Maker" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TableModels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Model" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TableOrders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="idPerson" />
+    <Property Type="Int32" Name="idCar" />
+    <Property Type="DateTime" Name="Date" Precision="0" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="Int32" Name="StatusID" />
+  </EntityType>
+  <EntityType Name="TablePersons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FirstName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="DateOfBirth" Precision="0" />
+    <Property Type="String" Name="Address" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Phone" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="E_mail" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TableStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Status" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TableUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Usr" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="GroupsID" />
+    <Property Type="String" Name="Lgin" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Pass" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ViewCars1">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="Maker" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="ModelID" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ViewCars2">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="Maker" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Model" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ViewOrders1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FirstName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="idCar" />
+    <Property Type="DateTime" Name="Date" Precision="0" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="Int32" Name="StatusID" />
+  </EntityType>
+  <EntityType Name="ViewOrders2">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="FirstName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="MakerID" />
+    <Property Type="Int32" Name="ModelID" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Date" Precision="0" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="Int32" Name="StatusID" />
+  </EntityType>
+  <EntityType Name="ViewOrders3">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="FirstName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Maker" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="Int32" Name="ModelID" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Date" Precision="0" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="Int32" Name="StatusID" />
+  </EntityType>
+  <EntityType Name="ViewOrders4">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="FirstName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Maker" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Model" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Date" Precision="0" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="Int32" Name="StatusID" />
+  </EntityType>
+  <EntityType Name="ViewOrders5">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="FirstName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="LastName" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Maker" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Model" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Year" Precision="0" />
+    <Property Type="String" Name="VIN" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="DateTime" Name="Date" Precision="0" />
+    <Property Type="Decimal" Name="Amount" Precision="19" Scale="4" />
+    <Property Type="String" Name="Status" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+</Schema>
