@@ -144,3 +144,5 @@ C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\
 C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.Properties.Resources.resources
 C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.csproj.GenerateResource.Cache
 C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\CarRent.pdb
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Login.baml
+C:\Users\user\Desktop\RepositoryCarRentCenter\CarRent\CarRent\CarRent\obj\Debug\Login.g.cs

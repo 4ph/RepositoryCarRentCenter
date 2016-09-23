@@ -23,8 +23,17 @@ namespace CarRent
         {
             InitializeComponent();
         }
+
+        public WorkPlace(string strLogin)
+        {
+            InitializeComponent();
+            this.currentUser = strLogin;
+
+            if (currentUser == "admin") { new WorkPlace().ShowDialog(); }
+        }
+        string currentUser;
+
         CarRentalCenterDBEntities context = new CarRentalCenterDBEntities();
-        DataSet1 dataset = new DataSet1();
 
         private void MenuItemCars2_Click(object sender, RoutedEventArgs e)
         {

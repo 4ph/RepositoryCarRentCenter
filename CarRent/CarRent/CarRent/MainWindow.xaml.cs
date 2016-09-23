@@ -23,7 +23,8 @@ namespace CarRent
         public MainWindow()
         {
             InitializeComponent();
-            new WorkPlace().ShowDialog();
+            new Login().ShowDialog();
+            //new WorkPlace().ShowDialog();
             this.Close();
         }
     }
